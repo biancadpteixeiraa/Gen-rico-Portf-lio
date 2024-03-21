@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: Poppins;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color:rgb(109, 0, 211);
+    transition: 0.3s;
+}
+
+#Github-btn {
+    border: 2px solid;
+    color: rgb(109, 0, 211);
+    padding: 10px;
+    border-radius: 20px;
+}
+#Github-btn:hover {
+    color: white;
+    background-color:  rgb(109, 0, 211);
+}
+
+h1 {
+    font-weight: 300;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 20px;
+    font-family: Poppins;
+}
+
+span {
+    color: rgb(109, 0, 211);
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+img {
+    width: 580px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 40%;
+    background-color: rgb(109, 0, 211);
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
